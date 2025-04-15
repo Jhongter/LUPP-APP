@@ -1,0 +1,173 @@
+.cadastro-page {
+  background-color: white; 
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.cadastro-container {
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  background-color: #93c5fd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+}
+
+.form-section {
+  flex: 1;
+  padding: 1.5rem;
+}
+
+.membro-lupp-section {
+  width: 100%;
+  background-color: #93c5fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.coroa-container {
+  text-align: center;
+}
+
+.coroa-icon {
+  font-size: clamp(2.5rem, 8vw, 4rem); /* Tamanho responsivo */
+  margin-bottom: 1rem;
+}
+
+.coroa-container h3 {
+  font-size: clamp(1.3rem, 5vw, 1.8rem); /* Tamanho responsivo */
+  color: #333;
+  margin: 0;
+}
+
+.cadastro-title {
+  font-size: clamp(1.3rem, 5vw, 1.8rem); /* Tamanho responsivo */
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.cadastro-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem; /* Substitui margin-bottom por gap */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #444;
+  font-size: clamp(0.9rem, 3vw, 1rem); /* Tamanho responsivo */
+}
+
+.form-group input {
+  width: 100%;
+  padding: clamp(0.65rem, 2vw, 0.8rem); /* Padding responsivo */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: clamp(0.9rem, 3vw, 1rem); /* Tamanho responsivo */
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: #666;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(44, 62, 80, 0.2);
+}
+
+.form-group input::placeholder {
+  color: #aaa;
+  font-size: clamp(0.85rem, 2.8vw, 0.95rem); /* Tamanho responsivo */
+}
+
+.cadastro-button {
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  padding: clamp(0.8rem, 2.5vw, 1rem); /* Padding responsivo */
+  font-size: clamp(0.95rem, 3vw, 1rem); /* Tamanho responsivo */
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.cadastro-button:hover {
+  background-color: #34495e;
+  transform: translateY(-2px);
+}
+
+/* Media Queries para telas maiores */
+@media (min-width: 768px) {
+  .cadastro-page {
+    padding: 2rem;
+  }
+  
+  .cadastro-container {
+    flex-direction: row;
+  }
+  
+  .membro-lupp-section {
+    width: 300px;
+    border-bottom: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-section {
+    padding: 2.5rem;
+  }
+  
+  .cadastro-form {
+    gap: 1.5rem;
+  }
+  
+  .form-group input {
+    min-height: 44px; /* Altura mínima para melhor usabilidade */
+  }
+  
+  .cadastro-button {
+    margin-top: 1rem;
+  }
+}
+
+/* Ajustes para telas muito pequenas */
+@media (max-width: 480px) {
+  .form-section, .membro-lupp-section {
+    padding: 1rem;
+  }
+  
+  .cadastro-form {
+    gap: 1rem;
+  }
+  
+  .form-group label {
+    margin-bottom: 0.3rem;
+  }
+}
+
+/* Melhorias para telas muito grandes */
+@media (max-width: 1200px) {
+  .cadastro-container {
+    max-width: 100px;
+  }
+  
+  .form-group input {
+    padding: 0.9rem;
+  }
+}

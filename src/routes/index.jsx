@@ -9,6 +9,7 @@ import Navigation from "../components/Navigation"
 
 import Home from "../pages/Home";
 import Midia from '../pages/Midia';
+import Cadastro from "../pages/cadastro";
 
 
 
@@ -22,6 +23,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/midia" element={<Midia />} />
+        <Route path="/cadastro" element={<Cadastro />} />
        
       </Routes>
       <Footer/>
