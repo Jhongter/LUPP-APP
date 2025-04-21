@@ -13,8 +13,8 @@
 /* Logo */
 .logo {
   display: flex;
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
 }
 
 .logo img {

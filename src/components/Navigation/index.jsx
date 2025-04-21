@@ -12,9 +12,9 @@ const NavigationBar = () => {
 
       {/* Links */}
       <ul className="nav-links">
-        <li>Manutenções Básicas</li>
-        <li>Saúde e Bem Estar</li>
-        <li>Receitas</li>
+        <li>Home</li>
+        <li>Todos os Vídeos</li>
+        <li></li>
         <li>Área Membros</li>
       </ul>
 

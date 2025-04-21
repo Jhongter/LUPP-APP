@@ -1,0 +1,139 @@
+/* pages/Videos/Videos.css */
+
+/* Container principal */
+.videos-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  }
+  
+  /* Título da página */
+  .videos-container h1 {
+    text-align: center;
+    margin: 30px 0;
+    color: #2c3e50;
+    font-size: 2.2rem;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  
+  .videos-container h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: #ff4757;
+    border-radius: 2px;
+  }
+  
+  /* Navegação por categorias */
+  .categories-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 40px 0 30px;
+    padding: 0 20px;
+  }
+  
+  /* Estilo base dos botões */
+  .categories-nav button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    background: #f1f2f6;
+    color: #2f3542;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Efeito hover */
+  .categories-nav button:hover {
+    background: #dfe4ea;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Botão ativo */
+  .categories-nav button.active {
+    background: linear-gradient(135deg, #ff4757, #ff6b81);
+    color: white;
+    box-shadow: 0 5px 15px rgba(255, 71, 87, 0.4);
+  }
+  
+  /* Efeito de onda ao clicar */
+  .categories-nav button:active::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    opacity: 0;
+    border-radius: 100%;
+    transform: scale(1, 1) translate(-50%);
+    transform-origin: 50% 50%;
+    animation: ripple 0.6s ease-out;
+  }
+  
+  @keyframes ripple {
+    0% {
+      transform: scale(0, 0);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(20, 20);
+      opacity: 0;
+    }
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .videos-container h1 {
+      font-size: 1.8rem;
+      margin: 20px 0;
+    }
+    
+    .categories-nav {
+      gap: 10px;
+      margin: 30px 0;
+    }
+    
+    .categories-nav button {
+      padding: 10px 20px;
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .videos-container {
+      padding: 15px;
+    }
+    
+    .videos-container h1 {
+      font-size: 1.5rem;
+    }
+    
+    .categories-nav {
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .categories-nav button {
+      width: 100%;
+      max-width: 250px;
+      padding: 12px;
+    }
+  }

@@ -9,6 +9,7 @@ import Navigation from "../components/Navigation"
 
 import Home from "../pages/Home";
 import Midia from '../pages/Midia';
+import Video from '../pages/Videos';
 
 
 
@@ -22,6 +23,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/midia" element={<Midia />} />
+        <Route path="/videos" element={<Video />} />
        
       </Routes>
       <Footer/>
