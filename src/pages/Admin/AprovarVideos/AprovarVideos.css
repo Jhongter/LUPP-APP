@@ -1,0 +1,17 @@
+.approval-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .video-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .video-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }

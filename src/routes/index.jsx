@@ -9,8 +9,9 @@ import Navigation from "../components/Navigation"
 
 import Home from "../pages/Home";
 import Midia from '../pages/Midia';
-import Video from '../pages/Videos';
-
+import VideosPage from '../pages/Videos';
+import EnviarVideo from '../pages/EnviarVIdeo';
+import AprovarVideos from '../pages/Admin/AprovarVideos';
 
 
 import Footer from "../components/Footer"
@@ -23,8 +24,9 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/midia" element={<Midia />} />
-        <Route path="/videos" element={<Video />} />
-       
+        <Route path="/videos" element={<VideosPage />} />
+        <Route path="/enviar-video" element={<EnviarVideo />} />
+        <Route path="/admin/aprovar-videos" element={<AprovarVideos />} />
       </Routes>
       <Footer/>
     </Router>

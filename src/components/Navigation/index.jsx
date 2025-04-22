@@ -8,7 +8,7 @@ const NavigationBar = () => {
     <nav className="nav-container">
 
       
-      <div className="logo"><img src={Logo}/></div>
+      <div className="logo" ><img src={Logo}/></div>
 
       {/* Links */}
       <ul className="nav-links">
