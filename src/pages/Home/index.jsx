@@ -10,28 +10,28 @@ const HomePage = () => {
   // Dados dos vídeos em destaque
   const featuredVideos = [
     {
-      id: 'm1',
-      title: 'COMO TROCAR A RESISTÊNCIA DO CHUVEIRO',
-      thumbnail: 'https://assetsio.gnwcdn.com/co65za.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp',
+      id: 'm4',
+      title: 'Como trocar a resistencia do chuveiro',
+      thumbnail: 'https://i.ytimg.com/vi/bdlIP50OAKA/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLC_PvFWwIKLNVvLbMAmiDv-Gs57KQ',
       description: 'Aprenda passo a passo como substituir a resistência do seu chuveiro elétrico',
       label: 'APRENDA AQUI!'
     },
     {
-      id: 'r1',
-      title: 'COMO FAZER BOLO DE CENOURA',
-      thumbnail: 'https://assetsio.gnwcdn.com/co65za.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp',
+      id: 'r3',
+        title: 'Bolo de caneca de micro-ondas',
+        thumbnail: 'https://i.ytimg.com/vi/0HDC2BrgvL8/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAt4Qj40HUy7LhYqSv6XhskLL1tOA',
       description: 'Receita fácil e deliciosa de bolo de cenoura caseiro',
       label: 'APRENDA AQUI!'
     },
     {
-      id: 'm2',
+      id: 'm1',
       title: 'PNEU FUROU? APRENDA A TROCAR',
-      thumbnail: 'https://assetsio.gnwcdn.com/co65za.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp',
+      thumbnail: 'https://i.ytimg.com/vi/x0byqTuIKZI/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDgYzoQB5SaMvMK64f9sOJkMmcohA',
       description: 'Guia completo para trocar um pneu furado em poucos minutos',
       label: 'APRENDA AQUI!'
     },
     {
-        id: 'm3',
+        id: 'LUPP',
         title: 'Conheça a LUPP',
         thumbnail: Logo,
         description: 'Elevando seu aprendizado, passo a passo',

@@ -13,31 +13,35 @@ const VideosPage = () => {
       {
         id: 'm1',
         title: 'Como trocar o pneu do carro',
-        thumbnail: 'https://exemplo.com/pneu.jpg',
+        thumbnail: 'https://i.ytimg.com/vi/x0byqTuIKZI/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDgYzoQB5SaMvMK64f9sOJkMmcohA',
         duration: '04:48',
-        channel: 'Autoesporte',
-        category: 'manutencao'
+        channel: 'Autoesporte'
       },
       {
         id: 'm2',
         title: 'Como calibrar o pneu no posto',
-        thumbnail: 'https://exemplo.com/oleo.jpg',
+        thumbnail: 'https://i.ytimg.com/vi/8P4TMLLfu88/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDQBiRsgzPilLIr9ZuTPjblNU_ePg',
         duration: '02:20',
-        channel: 'Pensando Bem',
-        category: 'manutencao'
+        channel: 'Pensando Bem'
       },
       {
         id: 'm3',
         title: 'Tudo sobre ferramentas',
-        thumbnail: 'https://exemplo.com/oleo.jpg',
+        thumbnail: 'https://i.ytimg.com/vi/5JxN3ELqo9I/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDsYTO3UctvlWtBx5WcZWuhU920vg',
         duration: '40:44',
-        channel: 'Manual do Mundo',
-        category: 'manutencao'
+        channel: 'Manual do Mundo'
+      },
+      {
+        id: 'm4',
+        title: 'Como trocar a resistencia do chuveiro',
+        thumbnail: 'https://i.ytimg.com/vi/bdlIP50OAKA/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLC_PvFWwIKLNVvLbMAmiDv-Gs57KQ',
+        duration: '6:22',
+        channel: 'DP Elétrica'
       },
       {
         id: 's1',
         title: 'Como Fazer a barba com Gillette',
-        thumbnail: 'https://exemplo.com/saude.jpg',
+        thumbnail: 'https://i.ytimg.com/vi/ev2A84ocHaQ/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDhE4zkvR4cmf3Gv4FFnUjYq_XnnA',
         duration: '3:49',
         channel: 'Manual do Homem Moderno',
         category: 'saude'
@@ -45,7 +49,7 @@ const VideosPage = () => {
       {
         id: 's2',
         title: 'Como lavar as mãos',
-        thumbnail: 'https://exemplo.com/postura.jpg',
+        thumbnail: 'https://i.ytimg.com/vi/rsQlyIwetsE/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBncpLgFbQbgDhIWCrR-P8vJfLNcw',
         duration: '2:51',
         channel: 'Drauzio Varella',
         category: 'saude'
@@ -53,7 +57,7 @@ const VideosPage = () => {
       {
         id: 's3',
         title: 'Como amarrar um tenis',
-        thumbnail: 'https://exemplo.com/postura.jpg',
+        thumbnail: 'https://i.ytimg.com/vi/qSRbst4gswE/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAQQSynNRMtmgS-2BMbhwwmMK71Tg',
         duration: '1:51',
         channel: 'SALEX',
         category: 'saude'
@@ -61,7 +65,7 @@ const VideosPage = () => {
       {
         id: 'r1',
         title: 'Como Fazer arroz soltinho',
-        thumbnail: 'https://exemplo.com/pao.jpg',
+        thumbnail: 'https://i.ytimg.com/vi/IhUKu07aFkM/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBNj2BqBlabz17uoaRN6g1XwwoHmA',
         duration: '2:11',
         channel: 'Gastronomismo',
         category: 'receitas'
@@ -69,7 +73,7 @@ const VideosPage = () => {
       {
         id: 'r2',
         title: 'Qual tempero usar?',
-        thumbnail: 'https://exemplo.com/bolo.jpg',
+        thumbnail: 'https://i.ytimg.com/vi/QCt_8yIB0xI/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCmhdrcUi2wcAU0FgS2pXvaHmqojA',
         duration: '9:19',
         channel: 'Guilherme Guzela',
         category: 'receitas'
@@ -77,7 +81,7 @@ const VideosPage = () => {
       {
         id: 'r3',
         title: 'Bolo de caneca de micro-ondas',
-        thumbnail: 'https://exemplo.com/bolo.jpg',
+        thumbnail: 'https://i.ytimg.com/vi/0HDC2BrgvL8/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAt4Qj40HUy7LhYqSv6XhskLL1tOA',
         duration: '01:07',
         channel: 'TudoGostoso',
         category: 'receitas'
@@ -85,7 +89,7 @@ const VideosPage = () => {
       {
         id: 'r4',
         title: 'Massinha de modelar de gelatina',
-        thumbnail: 'https://exemplo.com/bolo.jpg',
+        thumbnail: 'https://i.ytimg.com/vi/G9diDi8FEwI/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBpKHhNGrcJp7uKNLpda61mG-PNxg',
         duration: '02:40',
         channel: 'Elenice Carneiro',
         category: 'receitas'
@@ -93,7 +97,7 @@ const VideosPage = () => {
       {
         id: 'r5',
         title: 'Doce Simples',
-        thumbnail: 'https://exemplo.com/bolo.jpg',
+        thumbnail: 'https://i.ytimg.com/vi/aGfd730CBg8/hqdefault.jpg?sqp=-oaymwFACKgBEF5IWvKriqkDMwgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAHwAQH4AbYIgAKAD4oCDAgAEAEYVCBhKGUwDw==&rs=AOn4CLCqkyeelkAVKN6dOBmnxhkGaJAeUg',
         duration: '00:20',
         channel: 'Cozinheiro Tommy',
         category: 'receitas'
@@ -103,97 +107,98 @@ const VideosPage = () => {
       {
         id: 'm1',
         title: 'Como trocar o pneu do carro',
-        thumbnail: 'https://exemplo.com/pneu.jpg',
+        thumbnail: 'https://i.ytimg.com/vi/x0byqTuIKZI/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDgYzoQB5SaMvMK64f9sOJkMmcohA',
         duration: '04:48',
         channel: 'Autoesporte'
       },
       {
         id: 'm2',
         title: 'Como calibrar o pneu no posto',
-        thumbnail: 'https://exemplo.com/oleo.jpg',
+        thumbnail: 'https://i.ytimg.com/vi/8P4TMLLfu88/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDQBiRsgzPilLIr9ZuTPjblNU_ePg',
         duration: '02:20',
         channel: 'Pensando Bem'
       },
       {
         id: 'm3',
         title: 'Tudo sobre ferramentas',
-        thumbnail: 'https://exemplo.com/oleo.jpg',
+        thumbnail: 'https://i.ytimg.com/vi/5JxN3ELqo9I/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDsYTO3UctvlWtBx5WcZWuhU920vg',
         duration: '40:44',
         channel: 'Manual do Mundo'
       },
       {
-        id: 'm3',
+        id: 'm4',
         title: 'Como trocar a resistencia do chuveiro',
-        thumbnail: 'https://exemplo.com/oleo.jpg',
-        duration: '8:15',
-        channel: 'Manual do Mundo'
+        thumbnail: 'https://i.ytimg.com/vi/bdlIP50OAKA/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLC_PvFWwIKLNVvLbMAmiDv-Gs57KQ',
+        duration: '6:22',
+        channel: 'DP Elétrica'
       }
     ],
     saude: [
       {
         id: 's1',
         title: 'Como Fazer a barba com Gillette',
-        thumbnail: 'https://exemplo.com/saude.jpg',
+        thumbnail: 'https://i.ytimg.com/vi/ev2A84ocHaQ/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDhE4zkvR4cmf3Gv4FFnUjYq_XnnA',
         duration: '3:49',
-        channel: 'Manual do Homem Moderno'
+        channel: 'Manual do Homem Moderno',
+        category: 'saude'
       },
       {
         id: 's2',
         title: 'Como lavar as mãos',
-        thumbnail: 'https://exemplo.com/postura.jpg',
+        thumbnail: 'https://i.ytimg.com/vi/rsQlyIwetsE/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBncpLgFbQbgDhIWCrR-P8vJfLNcw',
         duration: '2:51',
-        channel: 'Drauzio Varella'
+        channel: 'Drauzio Varella',
+        category: 'saude'
       },
       {
         id: 's3',
         title: 'Como amarrar um tenis',
-        thumbnail: 'https://exemplo.com/postura.jpg',
+        thumbnail: 'https://i.ytimg.com/vi/qSRbst4gswE/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAQQSynNRMtmgS-2BMbhwwmMK71Tg',
         duration: '1:51',
-        channel: 'SALEX'
+        channel: 'SALEX',
+        category: 'saude'
       }
     ],
     receitas: [
       {
         id: 'r1',
         title: 'Como Fazer arroz soltinho',
-        thumbnail: 'https://exemplo.com/pao.jpg',
+        thumbnail: 'https://i.ytimg.com/vi/IhUKu07aFkM/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBNj2BqBlabz17uoaRN6g1XwwoHmA',
         duration: '2:11',
-        channel: 'Gastronomismo'
+        channel: 'Gastronomismo',
+        category: 'receitas'
       },
       {
         id: 'r2',
         title: 'Qual tempero usar?',
-        thumbnail: 'https://exemplo.com/bolo.jpg',
+        thumbnail: 'https://i.ytimg.com/vi/QCt_8yIB0xI/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCmhdrcUi2wcAU0FgS2pXvaHmqojA',
         duration: '9:19',
-        channel: 'Guilherme Guzela'
+        channel: 'Guilherme Guzela',
+        category: 'receitas'
       },
       {
         id: 'r3',
         title: 'Bolo de caneca de micro-ondas',
-        thumbnail: 'https://exemplo.com/bolo.jpg',
+        thumbnail: 'https://i.ytimg.com/vi/0HDC2BrgvL8/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAt4Qj40HUy7LhYqSv6XhskLL1tOA',
         duration: '01:07',
-        channel: 'TudoGostoso'
+        channel: 'TudoGostoso',
+        category: 'receitas'
       },
       {
         id: 'r4',
         title: 'Massinha de modelar de gelatina',
-        thumbnail: 'https://exemplo.com/bolo.jpg',
+        thumbnail: 'https://i.ytimg.com/vi/G9diDi8FEwI/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBpKHhNGrcJp7uKNLpda61mG-PNxg',
         duration: '02:40',
-        channel: 'Elenice Carneiro'
+        channel: 'Elenice Carneiro',
+        category: 'receitas'
       },
       {
         id: 'r5',
         title: 'Doce Simples',
-        thumbnail: 'https://exemplo.com/bolo.jpg',
+        thumbnail: 'https://i.ytimg.com/vi/aGfd730CBg8/hqdefault.jpg?sqp=-oaymwFACKgBEF5IWvKriqkDMwgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAHwAQH4AbYIgAKAD4oCDAgAEAEYVCBhKGUwDw==&rs=AOn4CLCqkyeelkAVKN6dOBmnxhkGaJAeUg',
         duration: '00:20',
-        channel: 'Cozinheiro Tommy'
-      },
-      {
-        id: 'r6',
-        title: 'Como fazer um bolo de cenoura',
-        thumbnail: 'https://exemplo.com/bolo.jpg',
-        duration: '20:00',
-        channel: 'Cozinheiro Qualquer'
+        channel: 'Cozinheiro Tommy',
+        category: 'receitas'
       }
     ]
   };

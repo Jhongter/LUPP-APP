@@ -32,14 +32,31 @@
   text-transform: uppercase;
   font-size: 0.875rem;
   color: black;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-links li {
   cursor: pointer;
 }
 
-.nav-links li:hover {
+/* Estilo para os links - remove sublinhado e mantem consistência */
+.nav-links a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
   color: #1e3a8a;
+}
+
+/* Estilo para o link do logo */
+.logo a {
+  text-decoration: none;
+  display: block;
 }
 
 /* Contêiner de busca */
@@ -65,33 +82,69 @@
 
 /* Media Queries para Responsividade */
 
-/* Media Query para telas com largura abaixo de 780px */
 @media (max-width: 780px) {
   .nav-container {
-    flex-direction: row; /* Empilha os itens em uma coluna */
-    align-items: flex-start; /* Alinha os itens ao topo */
-    height: auto; /* Ajusta a altura */
-    align-items: centerf;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    padding: 0.5rem 1rem;
   }
 
   .nav-links {
-    flex-direction: column; /* Empilha os links verticalmente */
+    flex-direction: column;
     gap: 1rem;
-    display: none; /* Inicialmente, oculta os links */
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: #93c5fd;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 100;
   }
 
   .nav-links.active {
-    display: flex; /* Exibe os links quando a classe "active" for adicionada */
+    display: flex;
   }
 
   .menu-icon {
-    display: block; /* Exibe o ícone de menu */
+    display: block;
     cursor: pointer;
     font-size: 1.5rem;
   }
 
   .logo {
-    width: 80px; /* Reduz o tamanho da logo */
-    height: 80px;
+    width: 60px;
+    height: 60px;
+  }
+  
+  /* Ajuste para o search em mobile */
+  .search-container {
+    margin-left: auto;
+    margin-right: 1rem;
+  }
+}
+
+/* Melhorias para telas muito pequenas */
+@media (max-width: 480px) {
+  .nav-container {
+    flex-wrap: wrap;
+    padding: 0.5rem;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .search-container {
+    order: 3;
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+  
+  .search-input {
+    width: 100%;
   }
 }

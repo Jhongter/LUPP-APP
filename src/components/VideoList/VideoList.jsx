@@ -1,12 +1,31 @@
 import React from 'react';
-import VideoCard from '../VideoCard/VideoCard';
+import { useNavigate } from 'react-router-dom';
 import './VideoList.css';
 
 const VideoList = ({ videos }) => {
+  const navigate = useNavigate();
+
+  const handleVideoClick = (videoId) => {
+    navigate(`/video/${videoId}`);
+  };
+
   return (
     <div className="video-list">
       {videos.map((video) => (
-        <VideoCard key={video.id} video={video} />
+        <div 
+          key={video.id} 
+          className="video-item" 
+          onClick={() => handleVideoClick(video.id)}
+        >
+          <div className="video-thumbnail">
+            <img src={video.thumbnail} alt={video.title} />
+            <span className="video-duration">{video.duration}</span>
+          </div>
+          <div className="video-info">
+            <h3>{video.title}</h3>
+            <p>{video.channel}</p>
+          </div>
+        </div>
       ))}
     </div>
   );

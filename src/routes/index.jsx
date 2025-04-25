@@ -12,6 +12,7 @@ import Midia from '../pages/Midia';
 import VideosPage from '../pages/Videos';
 import EnviarVideo from '../pages/EnviarVIdeo';
 import AprovarVideos from '../pages/Admin/AprovarVideos';
+import VideoPlayer from '../pages/Videos/VideoPlayer'
 
 
 import Footer from "../components/Footer"
@@ -27,6 +28,7 @@ const App = () => {
         <Route path="/videos" element={<VideosPage />} />
         <Route path="/enviar-video" element={<EnviarVideo />} />
         <Route path="/admin/aprovar-videos" element={<AprovarVideos />} />
+        <Route path="/video/:id" element={<VideoPlayer />} />
       </Routes>
       <Footer/>
     </Router>

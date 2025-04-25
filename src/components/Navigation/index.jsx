@@ -1,21 +1,30 @@
 import React from "react";
 import { Search } from "lucide-react";
+import { Link } from "react-router-dom"; // Importe o Link
 import "./style.css";
-import Logo from "../../assets/icons/logo.png"
+import Logo from "../../assets/icons/logo.png";
 
 const NavigationBar = () => {
   return (
     <nav className="nav-container">
-
-      
-      <div className="logo" ><img src={Logo}/></div>
+      {/* Logo que leva para a Home */}
+      <div className="logo">
+        <Link to="/">
+          <img src={Logo} alt="Logo" />
+        </Link>
+      </div>
 
       {/* Links */}
       <ul className="nav-links">
-        <li>Home</li>
-        <li>Todos os Vídeos</li>
-        <li></li>
-        <li>Área Membros</li>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/videos">Todos os Vídeos</Link>
+        </li>
+        <li>
+          <Link to="/">Área Membros</Link>
+        </li>
       </ul>
 
       {/* Busca */}
